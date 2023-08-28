@@ -7,4 +7,5 @@ Todos os pertences da família foram roubados, inclusive a espada de seu tatarav
 Todos haviam sido exterminados: os cidadãos, seus soldados, sua família... Restara apenas ele e seu ódio. Meses depois da tragédia, após intensas rotinas de treinamento e planejamentos sem fim para um ataque bem-sucedido contra Onigama, ele estava pronto para iniciar sua vingança. Era matar ou morrer; ele já não temia mais a morte, não havia nada a perder. Depois de pensar em inúmeras estratégias diferentes, decidiu começar seus ataques em Yawarakai Mori, um bosque onde estava situado uma parcela do exército de Onigama, apenas para o caso de invadirem seu território. Conseguirá o filho de Ashikaga Yoshiaki chegar a Kurozumi Mori e saciar seu desejo de vingança? Conduza-o para a derrota de Onigama (ou para a sua 🤭) jogando **UxO Beta** agora mesmo.
 
 > Read in [English](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/README.md) /
+> Leer en [Español](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/readme/README_sp.md) /
 > [日本語](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/readme/README_jp.md) で読んでください。
