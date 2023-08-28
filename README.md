@@ -7,4 +7,5 @@ All of the family's belongings were stolen, including his great-great-grandfathe
 Everyone had been exterminated: the citizens, his soldiers, his family... There was only him and his hatred left. Months after the tragedy, after intense training routines and endless planning for a successful attack against Onigama, he was ready to exact his revenge. It was kill or be killed; he no longer feared death, there was nothing to lose. After thinking of countless different strategies, he decided to start his attacks at Yawarakai Mori, a grove where a portion of Onigama's army was stationed, just in case they invaded his territory. Can Ashikaga Yoshiaki's son reach Kurozumi Mori and satisfy his desire for revenge? Lead him to defeat Onigama (or yourself 🤭) by playing **UxO Beta** right now.
 
 > Ler em [Português](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/readme/README_pt-BR.md) /
+> Leer en [Español](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/readme/README_sp.md) /
 > [日本語](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/readme/README_jp.md) で読んでください。
