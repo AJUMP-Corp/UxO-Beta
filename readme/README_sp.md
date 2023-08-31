@@ -8,4 +8,4 @@ Todos habían sido exterminados: los ciudadanos, sus soldados, su familia... Só
 
 > Ler em [Português](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/readme/README_pt-BR.md) /
 > Read in [English](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/README.md) /
-> [日本語](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/readme/README_jp.md) で読んでください。
+> [日本語](https://github.com/AJUMP-Corp/UxO-Beta/blob/main/readme/README_jp.md)で読んでください。
