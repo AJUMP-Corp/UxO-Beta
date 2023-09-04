@@ -28,7 +28,7 @@
     - **Falling Attack `[S]`:** uses the character's weapon to deliver an attack from underneath the player.
 
 - ## 2nd Improvement:
-    > Specific Attack → need to press the Dash button (`[right mouse button]`) for 3s to use (expends 1/3 of total stamina)
+    > **Specific Attack** → need to press the Dash button (`[right mouse button]`) for 3s to use (expends 1/3 of total stamina)
     - **Utuh:** Wind Cut (deals high damage to the enemy);
     - **Ayumi:** Ground Quake (stuns enemies);
     - **Mekka:** Explosive Shuriken (deals area damage);
