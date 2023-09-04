@@ -7,4 +7,4 @@
     - Touching any enemy;
     - Falling into the flames;
     - Being hit by any enemy attack;
-    - Traps scattered throughout the level;
+    - Traps scattered throughout the level.
