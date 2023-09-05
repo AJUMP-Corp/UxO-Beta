@@ -12,9 +12,10 @@
 
 # Basic Skills:
 - ## General Basic Skills:
-    - **Running:** locomotion skill → Left `[A]` & Right `[D]`;
-    - **Jumping:** jump skill → `[W]`;
-    - **Dash or Dodge:** extremely fast movement made with the body capable of dodging blows and escaping from complicated situations (spend 1 stamina container) → `[right mouse button]`;
+    - **Running:** locomotion skill → Left `[A]`, Right `[D]`;
+    - **Jump:** jumping skill → `[W or Spacebar]`;
+    - **Double Jump:** double jump skill → `[W + W]`;
+    - **Dash or Dodge:** extremely fast movement made with the body capable of dodging blows and escaping from complicated situations (spend 1 stamina container) → `[Q]`;
     - **Attack:** hit the enemy with the fighting tool → `[left mouse button]`.
 
 - ## Specific Basic Skills:
@@ -28,11 +29,11 @@
     - **Falling Attack `[S]`:** uses the character's weapon to deliver an attack from underneath the player.
 
 - ## 2nd Improvement:
-    > **Specific Attack** → need to press the Dash button (`[right mouse button]`) for 3s to use (expends 1/3 of total stamina)
+    > **Specific Attack** → press `[right mouse button]` to use (expends 1/3 of total stamina)
     - **Utuh:** Wind Cut (deals high damage to the enemy);
     - **Ayumi:** Ground Quake (stuns enemies);
     - **Mekka:** Explosive Shuriken (deals area damage);
     - **Uryuu:** Spit Fire (blast of fire from the mouth).
 
 - ## 3rd Improvement:
-    - **Fury Mode `[Q]`:** Inflicts numerous consecutive attacks and provides infinite stamina for a few seconds. NOTE: to use it, is necessary to keep the button pressed for 5s and it uses up all the stamina of the player.
+    - **Fury Mode:** Inflicts numerous consecutive attacks and provides infinite stamina for a few seconds. NOTE: to use it, is necessary to keep the `[right mouse button]` pressed for 3s and it uses up all the stamina of the player.
