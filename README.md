@@ -24,8 +24,15 @@ Directory: [general](sounds/general/)
 
 Effects construction: [README_general](sounds/general/README_general.md)
 
-### Characters
+### [Characters](sounds/characters/)
+In this directory are the sound effects of our main characters, or protagonists. These characters will face all the challenges of UxO Beta.
 
-### Bosses
+Directory: [characters](sounds/characters/)
 
-### Enemies
+Effects construction: 
+- [README_utuh](sounds/characters/character_utuh/README_utuh.md)
+- [README_ayumi](sounds/characters/character_ayumi/README_ayumi.md)
+
+### [Bosses](sounds/bosses/)
+
+### [Enemies](sounds/enemies/)
