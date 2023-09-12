@@ -13,3 +13,28 @@ The attack sound effects of Utuh are divided into 3 (three) variations, to make 
 </p>
 
 ## Utuh's Sword
+
+### Utuh's Sword 1
+This effect represents Utuh's standard sword. It will accompany Utuh at the beginning of his journey, which makes it very special. More than a sword, it is a Katana. "The katana was much more than a weapon for a samurai, it was practically his soul, spirituality, essence and values."
+
+This sound was made with two meat cleavers. The effect in the photo below is effect 1. I used 4 different sword sounds to make this effect. The idea is a more solid sound to make the base. Two medium sounds to make the second base and the sharpest and most open sound that will give the effect its beauty.
+
+<p align="center"> 
+  <img src="image_utuh/bandlab_utuh's_sword_1.png" alt="BandLab Utuh's Sword 1.png"">
+</p>
+
+### Utuh's Sound 2
+I made this sound by passing the cleavers through each other, to give the impression of a cut. And also the stronger impression of the clash of swords.
+
+The sound of swords cutting in games is a crucial element for player immersion. It helps to create a more realistic and immersive experience, increasing player satisfaction
+
+<p align="center"> 
+  <img src="image_utuh/bandlab_utuh's_sword_2.png" alt="BandLab Utuh's Sword 2.png"">
+</p>
+
+### Utuh's Sound 3
+I used some of the sounds from the previous effect to create this third effect. For this effect I shook the cleavers very quickly as if they were shaking hands after the impact of the two swords.
+
+<p align="center"> 
+  <img src="image_utuh/bandlab_utuh's_sword_3.png" alt="BandLab Utuh's Sword 3.png"">
+</p>
