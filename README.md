@@ -17,7 +17,12 @@ Within each directory there are the sounds of each specific character in the gam
 
 Now I'll do a quick explanation of each directory.
  
-### General
+### [General](sounds/general/)
+This directory has the general sounds of the game, what does that mean? These are effects that every protagonist can use or any other character within the game.
+
+Directory: [general](sounds/general/)
+
+Effects construction: [README_general](sounds/general/README_general.md)
 
 ### Characters
 
