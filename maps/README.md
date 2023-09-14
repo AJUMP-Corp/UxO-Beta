@@ -11,3 +11,5 @@ Na Fase 3, ainda imersos no Yawarakai Mori, a transformação é palpável. Um v
 Por fim, a Fase 4 emerge sombria e misteriosa no Kurozumi Mori. Este é um reino de escuridão e perigos desconhecidos. Entre as árvores altas e sinistras, o templo onde Onigama reside encontra seu lugar. O mapa transmite essa atmosfera sombria, com nuances de verde escuro que evocam uma sensação de trevas iminentes.
 Este mapa vai além de uma mera ferramenta de navegação, transformando-se em uma obra de arte em si mesma. Cada linha, cor e forma se unem para criar uma tapeçaria de exploração e aventura, uma narrativa visual que convida o jogador a mergulhar de cabeça em um mundo repleto de maravilhas e desafios inesquecíveis.
 </p>
+
+<image src="https://github.com/AJUMP-Corp/UxO-Beta/blob/ambience/maps/mapa_global_final.png">
