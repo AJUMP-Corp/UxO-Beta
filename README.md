@@ -7,7 +7,7 @@
   ![commit activity](https://img.shields.io/github/commit-activity/w/AJUMP-Corp/UxO-Beta)
   ![last commit](https://img.shields.io/github/last-commit/AJUMP-Corp/UxO-Beta)
   ![contributors](https://img.shields.io/github/contributors/AJUMP-Corp/UxO-Beta)
-  ![top language](https://img.shields.io/github/languages/top/AJUMP-Corp/UxO-Beta)
+  ![top language](https://img.shields.io/github/languages/top/AJUMP-Corp/UxO-Beta) <br>
   ![watchers](https://img.shields.io/github/watchers/AJUMP-Corp/UxO-Beta?style=social)
   ![forks](https://img.shields.io/github/forks/AJUMP-Corp/UxO-Beta?style=social)
   ![stars](https://img.shields.io/github/stars/AJUMP-Corp/UxO-Beta?style=social)
