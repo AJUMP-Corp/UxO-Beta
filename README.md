@@ -1,14 +1,22 @@
 <div align="center">
-  <img src="https://github.com/AJUMP-Corp/.github/blob/main/uxo_banner.png" alt="UxO Banner">
 
-  <a href="#a-introduction-to-the-history-of-uxo-beta">Intro</a> •
-  <a href="#game-production-history">Game Production</a> •
-  <a href="#system-requirements">System Requirements</a> •
-  <a href="#download">Download</a> •
-  <a href="#resources">Resources</a> •
-  <a href="#credits--license">Credits</a>
-  <!-- <a href="#development-progress">Game Development</a> • -->
-  <!-- <a href="#screenshots">Screenshots</a> • -->
+  ![UxO Banner](https://github.com/AJUMP-Corp/.github/blob/main/uxo_banner.png)
+
+  ![license](https://img.shields.io/github/license/AJUMP-Corp/UxO-Beta)
+  ![unity](https://img.shields.io/badge/unity-2022.3.8f1-4c9ee8)
+  ![commit activity](https://img.shields.io/github/commit-activity/w/AJUMP-Corp/UxO-Beta)
+  ![last commit](https://img.shields.io/github/last-commit/AJUMP-Corp/UxO-Beta)
+  ![contributors](https://img.shields.io/github/contributors/AJUMP-Corp/UxO-Beta)
+  ![top language](https://img.shields.io/github/languages/top/AJUMP-Corp/UxO-Beta)
+  ![watchers](https://img.shields.io/github/watchers/AJUMP-Corp/UxO-Beta?style=social)
+  ![forks](https://img.shields.io/github/forks/AJUMP-Corp/UxO-Beta?style=social)
+  ![stars](https://img.shields.io/github/stars/AJUMP-Corp/UxO-Beta?style=social)
+
+  [Intro](#a-introduction-to-the-history-of-uxo-beta) •
+  [Game Production](#game-production-history) • [System Requirements](#system-requirements) •
+  [Download](#download) • [Resources](#resources) • <!-- [Screenshots](#screenshots) • 
+  [Game Development](#development-progress) • --> [Credits](#credits--license)
+
 </div>
 
 ---
@@ -21,11 +29,11 @@ Everyone had been exterminated: the citizens, his soldiers, his family... There 
 From the beginning, the basic idea was always a 2D adventure, platform and difficult game, with frantic and insane fights. We decided to use the Unity game engine to develop it, due to its popularity and ease of work. For the graphics, firstly, we idealized them to be pixelated (this version can be found [here](https://github.com/AJUMP-Corp/UxO-Beta/tree/main/Old%20Version%20(test))), but due to some problems this idea was discarded. At the moment, the team is working on producing graphics using vectors, while the development of the first phase of the game is underway.
 
 ## System Requirements
-- Operational System: Windows 7 or higher, macOS 10.12 or higher, or Linux Ubuntu 18.04 or higher
-- Processor: 1.5 GHz dual-core processor or equivalent
-- RAM Memory: 2 GB
-- Video Card: DirectX 9 compatible graphics card
-- Storage: 1 GB of available disk space
+- Operational System: Windows 10, macOS 10.15, or Linux Ubuntu 20.04
+- Processor: 2 GHz dual-core processor or equivalent
+- RAM Memory: 4 GB
+- Video Card: OpenGL 3.3 compatible graphics card
+- Storage: 2 GB of available disk space
 
 ## Download
 1. Download the game [here](https://github.com/AJUMP-Corp/UxO-Beta/tree/main/Old%20Version%20(test)/Unity%20Game%20Executable%20(Pre-Alpha%20Version)) (still in Pre-Alpha version).
@@ -51,7 +59,42 @@ _Image description._
 _Image description._ -->
 
 <!-- ## Development Progress
-_Add checkboxes for this!_ -->
+- **Player**
+  - [ ]
+  - [ ]
+  - [ ]
+  - [ ]
+  - [ ]
+- **User Interface**
+  - [ ] Main menu
+    - [X] Intro menu
+    - [ ] Settings tab
+    - [ ] Character selection tab
+  - [X] Phase map
+  - [ ] Animations & Cutscenes
+  - [ ] Credits screen
+- **Enemies**
+  - [ ]
+  - [ ]
+  - [ ]
+  - [ ]
+  - [ ]
+- **Bosses**
+  - [ ]
+  - [ ]
+  - [ ]
+  - [ ]
+  - [ ]
+- **Levels**
+  - [ ] Trap system
+  - [ ] Map environments
+    - [X] Map 1 complete
+    - [ ] Map 2 complete
+    - [ ] Map 3 complete
+    - [ ] Map 4 complete
+  - [ ] 
+  - [ ] 
+  - [ ] Give the player a new skill at the end of the level -->
 
 ## Credits & License
 - Project Management by [João Gabriel](https://github.com/JGabrielJ).
