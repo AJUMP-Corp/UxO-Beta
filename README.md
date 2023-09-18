@@ -14,8 +14,8 @@
 
   [Intro](#a-introduction-to-the-history-of-uxo-beta) •
   [Game Production](#game-production-history) • [System Requirements](#system-requirements) •
-  [Download](#download) • [Resources](#resources) • <!-- [Screenshots](#screenshots) • 
-  [Game Development](#development-progress) • --> [Credits](#credits--license)
+  [Download](#download) • [Resources](#resources) • <!-- [Screenshots](#screenshots) • -->
+  [Game Development](#development-progress) • [Credits](#credits--license)
 
 </div>
 
@@ -58,13 +58,16 @@ _Image description._
 ![Image 3](screenshots/screenshot3.png)
 _Image description._ -->
 
-<!-- ## Development Progress
+## Development Progress
 - **Player**
-  - [ ]
-  - [ ]
-  - [ ]
-  - [ ]
-  - [ ]
+  - [ ] Collision system
+    - [X] Floor and walls
+    - [ ] Traps and other damage mechanics
+    - [ ] Enemies & Bosses
+  - [ ] Movement mechanics
+  - [ ] Attack commands
+  - [ ] Use of skills
+  - [ ] Way to enter a level
 - **User Interface**
   - [ ] Main menu
     - [X] Intro menu
@@ -74,17 +77,17 @@ _Image description._ -->
   - [ ] Animations & Cutscenes
   - [ ] Credits screen
 - **Enemies**
-  - [ ]
-  - [ ]
-  - [ ]
-  - [ ]
-  - [ ]
+  - [ ] Collision system
+    - [ ] Floor and walls
+    - [ ] Player damage
+  - [ ] Attack on the player
+  - [ ] Movement mechanics
 - **Bosses**
-  - [ ]
-  - [ ]
-  - [ ]
-  - [ ]
-  - [ ]
+  - [ ] Collision system
+    - [ ] Floor and walls
+    - [ ] Player damage
+  - [ ] Attack on the player
+  - [ ] Movement mechanics
 - **Levels**
   - [ ] Trap system
   - [ ] Map environments
@@ -92,9 +95,8 @@ _Image description._ -->
     - [ ] Map 2 complete
     - [ ] Map 3 complete
     - [ ] Map 4 complete
-  - [ ] 
-  - [ ] 
-  - [ ] Give the player a new skill at the end of the level -->
+  - [ ] Transition mechanics between levels
+  - [ ] Give the player a new skill at the end of the level
 
 ## Credits & License
 - Project Management by [João Gabriel](https://github.com/JGabrielJ).
