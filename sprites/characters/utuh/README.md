@@ -40,7 +40,7 @@ This emotional sprite captures the moment after Utuh's hit points are reduced to
 This emotional sprite captures the moment after Utuh's hit points are reduced to zero, marking his tragic departure from this virtual world. This sprite was meticulously created to represent the scenario where the player meets his end through a gunshot.
 
 <div align="center"> 
-  <img src="image_utuh/morteTito.png" alt="Utuh Dying from a Gunshot">
+  <img src="image_utuh/morteTiro.png" alt="Utuh Dying from a Gunshot">
 </div>
 
 ## Utuh Drowning
