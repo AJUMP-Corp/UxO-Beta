@@ -33,10 +33,16 @@ Now I will do a quick explanation of each directory.
 
 - Description of characters: 
     - [Utuh README](./characters/utuh/README.md)
-    - [Ayumi README](./characters/ayumi/README.md)
 
 -----------------------
 ### [Bosses](./bosses/)
 
 -------------------------
 ### [Enemies](./enemies/)
+- In this directory are the sprites of the enemies. They will be part of the challenge of UxO Beta
+
+- Directory: [enemies](./enemies/)
+
+- Description of enemies: 
+    - [Katanaji README](./enemies/katanaji/README.md)
+    - [Tanegashimiri README](./enemies/tanegashimiri/README.md)
