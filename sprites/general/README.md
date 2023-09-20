@@ -30,7 +30,7 @@ A house that is distant and blackened by smoke.
 A house that is distant and blackened by smoke.
 
 <div align="center"> 
-  <img src="sprites_general/casaLonge2.png" alt="Black House">
+  <img src="sprites_general/CasaLonge2.png" alt="Black House">
 </div>
 
 ## Floor
