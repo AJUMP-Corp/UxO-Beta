@@ -49,3 +49,10 @@ This poignant sprite depicts Utuh taking his last breath, succumbing to drowning
 <div align="center"> 
   <img src="image_utuh/afogaProta.png" alt="Utuh Drowning">
 </div>
+
+## Utuh Dash
+This stunning sprite captures the moment Utuh performs a lightning-fast slide known as a 'dash'
+
+<div align="center"> 
+  <img src="image_utuh/dashProta.png" alt="Utuh Dash">
+</div>
