@@ -29,11 +29,11 @@ Everyone had been exterminated: the citizens, his soldiers, his family... There 
 From the beginning, the basic idea was always a 2D adventure, platform and difficult game, with frantic and insane fights. We decided to use the Unity game engine to develop it, due to its popularity and ease of work. For the graphics, firstly, we idealized them to be pixelated (this version can be found [here](https://github.com/AJUMP-Corp/UxO-Beta/tree/main/Old%20Version%20(test))), but due to some problems this idea was discarded. At the moment, the team is working on producing graphics using vectors, while the development of the first phase of the game is underway.
 
 ## System Requirements
-- Operational System: Windows 10, macOS 10.15, or Linux Ubuntu 20.04
-- Processor: 2 GHz dual-core processor or equivalent
-- RAM Memory: 4 GB
-- Video Card: OpenGL 3.3 compatible graphics card
-- Storage: 2 GB of available disk space
+- Operational System: Windows 7 or later
+- Processor: 1.5 GHz dual-core processor or equivalent
+- RAM Memory: 2 GB or more
+- Video Card: DirectX 9 (or better) compatible graphics card
+- Storage: 500 MB of available disk space
 
 ## Download
 1. Download the game [here](https://github.com/AJUMP-Corp/UxO-Beta/tree/main/Old%20Version%20(test)/Unity%20Game%20Executable%20(Pre-Alpha%20Version)) (still in Pre-Alpha version).
