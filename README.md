@@ -64,8 +64,8 @@ _Image description._ -->
     - [X] Floor and walls
     - [ ] Traps and other damage mechanics
     - [ ] Enemies & Bosses
-  - [ ] Movement mechanics
-  - [ ] Attack commands
+  - [X] Movement mechanics
+  - [X] Attack commands
   - [ ] Use of skills
   - [ ] Way to enter a level
 - **User Interface**
@@ -73,7 +73,8 @@ _Image description._ -->
     - [X] Intro menu
     - [ ] Settings tab
     - [ ] Character selection tab
-  - [X] Phase map
+  - [ ] Camera schematics
+  - [X] Phases map
   - [ ] Animations & Cutscenes
   - [ ] Credits screen
 - **Enemies**
