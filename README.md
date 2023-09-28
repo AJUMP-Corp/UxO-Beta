@@ -36,9 +36,9 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
 - Storage: 500 MB of available disk space
 
 ## Download
-1. Download the game [here](https://github.com/AJUMP-Corp/UxO-Beta/tree/main/Old%20Version%20(test)/Unity%20Game%20Executable%20(Pre-Alpha%20Version)) (still in Pre-Alpha version).
+1. Download the game [here](https://github.com/AJUMP-Corp/UxO-Beta/releases/download/pre-alpha/UxO-Beta.zip) (still in Pre-Alpha version).
 2. Extract the .zip file to the folder of your choice.
-3. Run the "**UxO project.exe**" file to launch the game.
+3. Run the "**UxO Beta.exe**" file to launch the game.
 
 ## Resources
 - Amazing 2D graphics.
@@ -73,7 +73,7 @@ _Image description._ -->
     - [X] Intro menu
     - [ ] Settings tab
     - [ ] Character selection tab
-  - [ ] Camera schematics
+  - [X] Camera schematics
   - [X] Phases map
   - [ ] Animations & Cutscenes
   - [ ] Credits screen
