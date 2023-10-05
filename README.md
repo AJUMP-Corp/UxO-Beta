@@ -79,7 +79,7 @@ _Image description._ -->
   - [ ] Credits screen
 - **Enemies**
   - [ ] Collision system
-    - [ ] Floor and walls
+      - [X] Floor and walls
     - [ ] Player damage
   - [ ] Attack on the player
   - [ ] Movement mechanics
@@ -92,7 +92,7 @@ _Image description._ -->
 - **Levels**
   - [ ] Trap system
   - [ ] Map environments
-    - [X] Map 1 complete
+    - [ ] Map 1 complete
     - [ ] Map 2 complete
     - [ ] Map 3 complete
     - [ ] Map 4 complete
