@@ -14,7 +14,7 @@
 
   [Intro](#a-introduction-to-the-history-of-uxo-beta) •
   [Game Production](#game-production-history) • [System Requirements](#system-requirements) •
-  [Download](#download) • [Resources](#resources) • <!-- [Screenshots](#screenshots) • -->
+  [Download](#download) • [Resources](#resources) • [Screenshots](#screenshots) •
   [Game Development](#development-progress) • [Credits](#credits--license)
 
 </div>
@@ -43,20 +43,17 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
 ## Resources
 - Amazing 2D graphics.
 - Immersive soundtrack.
-- 4 characters available to play.
+- 2 characters available to play.
 - Various unlockable skills.
 - Challenging enemies, traps and bosses.
 - 4 levels of pure adrenaline to explore.
 
-<!-- ## Screenshots
-![Image 1](screenshots/screenshot1.png)
-_Image description._
-
-![Image 2](screenshots/screenshot2.png)
-_Image description._
-
-![Image 3](screenshots/screenshot3.png)
-_Image description._ -->
+## Screenshots
+<div align="center">
+  <img src="./maps/screenshots/screenshot1.jpeg" alt="Image 1" width="854px" height="480px">
+  <img src="./maps/screenshots/screenshot2.jpeg" alt="Image 2" width="854px" height="480px">
+  <img src="./maps/screenshots/screenshot3.jpeg" alt="Image 3" width="854px" height="480px">
+</div>
 
 ## Development Progress
 - **Player**
