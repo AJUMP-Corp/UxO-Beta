@@ -76,7 +76,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [ ] Credits screen
 - **Enemies**
   - [ ] Collision system
-      - [X] Floor and walls
+    - [X] Floor and walls
     - [ ] Player damage
   - [ ] Attack on the player
   - [ ] Movement mechanics
@@ -89,7 +89,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
 - **Levels**
   - [ ] Trap system
   - [ ] Map environments
-    - [ ] Map 1 complete
+    - [X] Map 1 complete
     - [ ] Map 2 complete
     - [ ] Map 3 complete
     - [ ] Map 4 complete
@@ -98,7 +98,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
 
 ## Credits & License
 - Project Management by [João Gabriel](https://github.com/JGabrielJ).
-- Programming by [Pedro Cauan](https://github.com/Cauan87) e [Murilo Rodrigues](https://github.com/MuriloPensativo).
+- Programming by [Pedro Cauan](https://github.com/Cauan87), [João Gabriel](https://github.com/JGabrielJ) and [Murilo Rodrigues](https://github.com/MuriloPensativo).
 - Map and Characters by [Ulisses dos Santos](https://github.com/Ulisses-Eufrauzino).
 - Sounds by [Abraão Lucas](https://github.com/abraaolucassb).
 > See more about our team [here](https://github.com/AJUMP-Corp).
