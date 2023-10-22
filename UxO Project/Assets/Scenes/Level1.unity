@@ -723,7 +723,7 @@ GameObject:
   - component: {fileID: 133069189}
   m_Layer: 0
   m_Name: chao (0)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1939,7 +1939,7 @@ GameObject:
   - component: {fileID: 411664285}
   m_Layer: 0
   m_Name: chao
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1953,7 +1953,7 @@ Transform:
   m_GameObject: {fileID: 411664282}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.5954, y: -18.44, z: 0.50601834}
+  m_LocalPosition: {x: -15.5954, y: -18.4, z: 0.50601834}
   m_LocalScale: {x: 4.004631, y: 4.9637723, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2776,9 +2776,10 @@ GameObject:
   m_Component:
   - component: {fileID: 504830364}
   - component: {fileID: 504830365}
+  - component: {fileID: 504830366}
   m_Layer: 0
   m_Name: chao (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2792,7 +2793,7 @@ Transform:
   m_GameObject: {fileID: 504830363}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 144.67, y: -18.41, z: 0.50601834}
+  m_LocalPosition: {x: 144.67, y: -18.4, z: 0.50601834}
   m_LocalScale: {x: 4.004631, y: 4.9637723, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2850,6 +2851,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &504830366
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504830363}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20, y: 1.25}
+    newSize: {x: 20, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20, y: 1.25}
+  m_EdgeRadius: 0
 --- !u!1 &505949261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3389,6 +3435,7 @@ GameObject:
   - component: {fileID: 558121292}
   - component: {fileID: 558121291}
   - component: {fileID: 558121290}
+  - component: {fileID: 558121293}
   m_Layer: 0
   m_Name: Katanaji
   m_TagString: Untagged
@@ -3500,6 +3547,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &558121293
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558121288}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.008224487, y: 0.15288806}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.96875, y: 6.875}
+    newSize: {x: 4.96875, y: 6.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.3807373, y: 6.209867}
+  m_EdgeRadius: 0
 --- !u!1 &580044802
 GameObject:
   m_ObjectHideFlags: 0
@@ -8062,9 +8154,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1332642779}
   - component: {fileID: 1332642780}
+  - component: {fileID: 1332642781}
   m_Layer: 0
   m_Name: chao (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8136,6 +8229,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1332642781
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332642778}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20, y: 1.25}
+    newSize: {x: 20, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20, y: 1.25}
+  m_EdgeRadius: 0
 --- !u!1 &1371381445
 GameObject:
   m_ObjectHideFlags: 0
@@ -8624,9 +8762,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1429660674}
   - component: {fileID: 1429660675}
+  - component: {fileID: 1429660676}
   m_Layer: 0
   m_Name: chao (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8640,7 +8779,7 @@ Transform:
   m_GameObject: {fileID: 1429660673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 304.94, y: -18.37, z: 0.50601834}
+  m_LocalPosition: {x: 304.94, y: -18.4, z: 0.50601834}
   m_LocalScale: {x: 4.004631, y: 4.9637723, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8698,6 +8837,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1429660676
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429660673}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20, y: 1.25}
+    newSize: {x: 20, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20, y: 1.25}
+  m_EdgeRadius: 0
 --- !u!1 &1455569684
 GameObject:
   m_ObjectHideFlags: 0
@@ -9121,10 +9305,10 @@ GameObject:
   - component: {fileID: 1542891155}
   - component: {fileID: 1542891154}
   - component: {fileID: 1542891153}
-  - component: {fileID: 1542891157}
   - component: {fileID: 1542891158}
   - component: {fileID: 1542891159}
-  - component: {fileID: 1542891160}
+  - component: {fileID: 1542891161}
+  - component: {fileID: 1542891162}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -9147,7 +9331,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 3.1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9219,31 +9403,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542891152}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.013125079, y: -0, z: -0, w: 0.9999139}
-  m_LocalPosition: {x: -14.5, y: -5, z: -0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.5, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1722346448}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 1.504, y: 0, z: 0}
---- !u!114 &1542891157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542891152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f6863343a62fc246972e7dc6edf0486, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 10
-  JumpForce: 15
-  animator: {fileID: 0}
-  isJumping: 0
-  attackDuration: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1542891158
 Animator:
   serializedVersion: 5
@@ -9297,7 +9464,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.07443702, y: -0.008285522}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9308,9 +9475,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 6}
+  m_Size: {x: 3.0511186, y: 5.8510056}
   m_EdgeRadius: 0
---- !u!114 &1542891160
+--- !u!114 &1542891161
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9319,10 +9486,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1542891152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b36922d61b48154e9d4fc996799bdc2, type: 3}
+  m_Script: {fileID: 11500000, guid: 809c9947254fab24a8b3ba60bc87a80c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpTutorialContainer: {fileID: 1426311204}
+  speed: 13
+  jumpForce: 15
+--- !u!114 &1542891162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542891152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6863343a62fc246972e7dc6edf0486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackCooldown: 0
 --- !u!1 &1556998669
 GameObject:
   m_ObjectHideFlags: 0
@@ -9653,9 +9834,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1625240603}
   - component: {fileID: 1625240604}
+  - component: {fileID: 1625240605}
   m_Layer: 0
   m_Name: chao (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9669,7 +9851,7 @@ Transform:
   m_GameObject: {fileID: 1625240602}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 385.06857, y: -18.36, z: 0.50601834}
+  m_LocalPosition: {x: 385.06857, y: -18.4, z: 0.50601834}
   m_LocalScale: {x: 4.008333, y: 4.9637723, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9727,6 +9909,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1625240605
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625240602}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20, y: 1.25}
+    newSize: {x: 20, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20, y: 1.25}
+  m_EdgeRadius: 0
 --- !u!1 &1673200958
 GameObject:
   m_ObjectHideFlags: 0
@@ -11440,9 +11667,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1974764440}
   - component: {fileID: 1974764441}
+  - component: {fileID: 1974764442}
   m_Layer: 0
   m_Name: chao (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11456,7 +11684,7 @@ Transform:
   m_GameObject: {fileID: 1974764439}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 465.20538, y: -18.34, z: 0.50601834}
+  m_LocalPosition: {x: 465.20538, y: -18.4, z: 0.50601834}
   m_LocalScale: {x: 4.004631, y: 4.9637723, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11514,6 +11742,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1974764442
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974764439}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20, y: 1.25}
+    newSize: {x: 20, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20, y: 1.25}
+  m_EdgeRadius: 0
 --- !u!1 &2013991316
 GameObject:
   m_ObjectHideFlags: 0
@@ -11524,9 +11797,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2013991317}
   - component: {fileID: 2013991318}
+  - component: {fileID: 2013991319}
   m_Layer: 0
   m_Name: chao (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11540,7 +11814,7 @@ Transform:
   m_GameObject: {fileID: 2013991316}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 64.5332, y: -18.43, z: 0.50601834}
+  m_LocalPosition: {x: 64.5332, y: -18.4, z: 0.50601834}
   m_LocalScale: {x: 4.008333, y: 4.9637723, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11598,6 +11872,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2013991319
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013991316}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20, y: 1.25}
+    newSize: {x: 20, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20, y: 1.25}
+  m_EdgeRadius: 0
 --- !u!1 &2022048445
 GameObject:
   m_ObjectHideFlags: 0
@@ -12100,9 +12419,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2143072195}
   - component: {fileID: 2143072196}
+  - component: {fileID: 2143072197}
   m_Layer: 0
   m_Name: chao (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12116,7 +12436,7 @@ Transform:
   m_GameObject: {fileID: 2143072194}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 545.23, y: -18.32, z: 0.50601834}
+  m_LocalPosition: {x: 545.23, y: -18.4, z: 0.50601834}
   m_LocalScale: {x: 4.004631, y: 4.9637723, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12174,6 +12494,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2143072197
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143072194}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20, y: 1.25}
+    newSize: {x: 20, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20, y: 1.25}
+  m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

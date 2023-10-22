@@ -24,16 +24,19 @@ public class WalkingAB : MonoBehaviour
     private void Walking()
     {
         transform.position = Vector2.MoveTowards(transform.position, WalkingAtoB[currentPoint].position, Speed * Time.deltaTime);
+
         if (transform.position == WalkingAtoB[currentPoint].position)
         {
             currentPoint += 1;
             lastPoint = transform.localPosition.x;
         }
+
         if (currentPoint >= WalkingAtoB.Length)
         {
             currentPoint = 0;
         }
     }
+
     private void FaceToSide()
     {
         if (transform.localPosition.x > lastPoint)

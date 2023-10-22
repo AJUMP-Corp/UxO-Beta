@@ -62,7 +62,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
     - [ ] Traps and other damage mechanics
     - [ ] Enemies & Bosses
   - [X] Movement mechanics
-  - [X] Attack commands
+  - [ ] Attack commands
   - [ ] Use of skills
   - [ ] Way to enter a level
 - **User Interface**
