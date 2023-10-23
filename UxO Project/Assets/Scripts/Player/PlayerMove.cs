@@ -7,8 +7,8 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
 
-    // Start is called before the first frame update
-    void Start()
+    // Awake is called when the script instance is loaded
+    private void Awake()
     {
         // Initializes body and animator from player
         body = GetComponent<Rigidbody2D>();
@@ -16,7 +16,7 @@ public class PlayerMove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         // Implements left-right movement
         float horizontalInput = Input.GetAxis("Horizontal");

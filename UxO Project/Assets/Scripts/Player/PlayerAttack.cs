@@ -2,24 +2,23 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private bool hit;
     private Animator animator;
-    private BoxCollider2D boxCollider;
     private float cooldownTimer = Mathf.Infinity;
     [SerializeField] private float attackCooldown;
 
-    void Start()
+    // Awake is called when the script instance is loaded
+    private void Awake()
     {
-        // Initializes animator and collider from player
+        // Initializes animator from player
         animator = GetComponent<Animator>();
-        boxCollider = GetComponent<BoxCollider2D>();
     }
 
-    void Update()
+    // Update is called once per frame
+    private void Update()
     {
         if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown)
         {
-            animator.SetBool("isAttacking", true);
+            animator.SetTrigger("isAttacking");
             cooldownTimer = 0;
         }
 

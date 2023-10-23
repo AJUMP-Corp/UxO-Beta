@@ -59,8 +59,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
 - **Player**
   - [ ] Collision system
     - [X] Floor and walls
-    - [ ] Traps and other damage mechanics
-    - [ ] Enemies & Bosses
+    - [X] Damage mechanics (Enemies)
   - [X] Movement mechanics
   - [ ] Attack commands
   - [ ] Use of skills
@@ -75,9 +74,9 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [ ] Animations & Cutscenes
   - [ ] Credits screen
 - **Enemies**
-  - [ ] Collision system
+  - [X] Collision system
     - [X] Floor and walls
-    - [ ] Player damage
+    - [X] Player damage
   - [ ] Attack on the player
   - [ ] Movement mechanics
 - **Bosses**

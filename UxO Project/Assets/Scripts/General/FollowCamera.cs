@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+    public Vector3 offset; // Distância entre o jogador e a câmera
     public Transform target; // O objeto que a câmera seguirá
     public float smoothSpeed = 0.125f; // Velocidade de suavização do movimento da câmera
-    public Vector3 offset; // Distância entre o jogador e a câmera
 
     void LateUpdate()
     {
