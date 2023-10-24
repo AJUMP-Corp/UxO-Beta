@@ -15,15 +15,6 @@ public class PlayerHealth : MonoBehaviour
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
     }
-    
-    // Update is called once per frame
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            TakeDamage(1);
-        }
-    }
 
     public void TakeDamage(float damage)
     {

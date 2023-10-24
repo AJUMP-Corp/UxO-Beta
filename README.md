@@ -57,10 +57,13 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
 
 ## Development Progress
 - **Player**
-  - [ ] Collision system
+  - [X] Collision system
     - [X] Floor and walls
     - [X] Damage mechanics (Enemies)
   - [X] Movement mechanics
+    - [X] Basic walking
+    - [X] Dash or dodge
+  - [X] Player health
   - [ ] Attack commands
   - [ ] Use of skills
   - [ ] Way to enter a level
@@ -77,6 +80,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [X] Collision system
     - [X] Floor and walls
     - [X] Player damage
+  - [X] Chases the player (really basic)
   - [ ] Attack on the player
   - [ ] Movement mechanics
 - **Bosses**

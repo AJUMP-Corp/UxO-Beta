@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de5fd45a5e5f6894f9895aa26a09e9df
+guid: 62759c272a7c40842bd5cdc94fd47f89
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chao_0
+      name: dashProta_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 500
-        height: 125
+        x: 61
+        y: 18
+        width: 128
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db0d5ae27647fe34bb6c2efef4437738
-      internalID: 996475126
+      spriteID: 379eb4b3e5629c64d86a69fd2df6514f
+      internalID: 175557066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chao_1
+      name: dashProta_1
       rect:
         serializedVersion: 2
-        x: 500
-        y: 0
-        width: 500
-        height: 125
+        x: 294
+        y: 17
+        width: 161
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da7fb8505a70a849add8d64e0dc9d16
-      internalID: 83605476
+      spriteID: e308099999b08884099c4a3fdcdf9540
+      internalID: -308003062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chao_2
+      name: dashProta_2
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 500
-        height: 125
+        x: 529
+        y: 18
+        width: 195
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 324a7ce6aa8393e4c8c72dcf59d78191
-      internalID: 1834661204
+      spriteID: 6d8e8c7a682f2cf40928eed2c40c71a5
+      internalID: -651840892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chao_3
+      name: dashProta_3
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 0
-        width: 500
-        height: 125
+        x: 795
+        y: 19
+        width: 159
+        height: 211
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbf818e3d4b21af409fa4321513b4cf1
-      internalID: 2102064583
+      spriteID: 0f950f6b514770a4197e20ff9579c9e4
+      internalID: 1049961065
       vertices: []
       indices: 
       edges: []
@@ -217,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chao_0: 996475126
-      chao_1: 83605476
-      chao_2: 1834661204
-      chao_3: 2102064583
+      dashProta_0: 175557066
+      dashProta_1: -308003062
+      dashProta_2: -651840892
+      dashProta_3: 1049961065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

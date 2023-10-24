@@ -2,55 +2,71 @@ using UnityEngine;
 
 public class Katanaji : MonoBehaviour
 {
-    [SerializeField] private float damage;
     [SerializeField] private float speed;
-    [SerializeField] private float movementDistance;
+    [SerializeField] private float range;
 
-    private bool movingLeft;
-    private float leftEdge;
-    private float rightEdge;
+    [SerializeField] private float checkDelay;
+    [SerializeField] private LayerMask playerLayer;
+    private float checkTimer;
 
-    // Awake is called when the script instance is loaded
-    private void Awake()
+    private Vector3 destination;
+    private bool movingOnPlayer;
+    private Vector3[] directions = new Vector3[2];
+
+    // transform.localScale = new Vector3(-1, 1, 1);
+    private void OnEnable()
     {
-        leftEdge = transform.position.x - movementDistance;
-        rightEdge = transform.position.x + movementDistance;
+        Stop();
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if (movingLeft)
+        if (movingOnPlayer)
         {
-            if (transform.position.x > leftEdge)
-            {
-                transform.localScale = new Vector3(-1, 1, 1);
-                transform.position = new Vector3(transform.position.x - speed * Time.deltaTime, transform.position.y, transform.position.z);
-            }
-            else
-            {
-                movingLeft = false;
-            }
+            transform.Translate(destination * Time.deltaTime * speed);
         }
         else
         {
-            if (transform.position.x < rightEdge)
+            checkTimer += Time.deltaTime;
+            if (checkTimer > checkDelay)
             {
-                transform.localScale = new Vector3(1, 1, 1);
-                transform.position = new Vector3(transform.position.x + speed * Time.deltaTime, transform.position.y, transform.position.z);
-            }
-            else
-            {
-                movingLeft = true;
+                CheckForPlayer();
             }
         }
     }
 
+    private void CheckForPlayer()
+    {
+        CalculateDirections();
+        for (int i = 0; i < directions.Length; i++)
+        {
+            Debug.DrawRay(transform.position, directions[i], Color.blue);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, directions[i], range, playerLayer);
+
+            if (hit.collider != null && !movingOnPlayer)
+            {
+                movingOnPlayer = true;
+                destination = directions[i];
+                checkTimer = 0;
+            }
+        }
+    }
+
+    private void CalculateDirections()
+    {
+        directions[0] = -transform.right * range; // Left
+        directions[1] = transform.right * range; // Right
+    }
+
+    private void Stop()
+    {
+        destination = transform.position;
+        movingOnPlayer = false;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
-        {
-            collision.GetComponent<PlayerHealth>().TakeDamage(damage);
-        }
+        Stop();
     }
 }
