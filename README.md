@@ -64,7 +64,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
     - [X] Basic walking
     - [X] Dash or dodge
   - [X] Player health
-  - [ ] Attack commands
+  - [ ] Attack and damage enemies
   - [ ] Use of skills
   - [ ] Way to enter a level
 - **User Interface**
@@ -80,9 +80,9 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [X] Collision system
     - [X] Floor and walls
     - [X] Player damage
-  - [X] Chases the player (really basic)
-  - [ ] Attack on the player
-  - [ ] Movement mechanics
+  - [X] Chases the player
+  - [X] Attack on the player
+  - [X] Movement mechanics (basic)
 - **Bosses**
   - [ ] Collision system
     - [ ] Floor and walls

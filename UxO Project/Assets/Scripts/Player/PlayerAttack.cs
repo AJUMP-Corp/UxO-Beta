@@ -24,31 +24,4 @@ public class PlayerAttack : MonoBehaviour
 
         cooldownTimer += Time.deltaTime;
     }
-
-    /* void Attack()
-    {
-        if (Input.GetMouseButtonDown(0) && !animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
-        {
-            animator.SetBool("isAttacking", true);
-            isAttacking = true;
-            attackTimer = 0.0f;
-            Speed = 0;
-        }
-    }
-
-    void AttackingTime()
-    {
-        if (isAttacking)
-        {
-            attackTimer += Time.deltaTime;
-
-            if (attackTimer >= attackDuration)
-            {
-                animator.SetBool("isAttacking", false);
-                isAttacking = false;
-
-                Speed = 10;
-            }
-        }
-    } */
 }

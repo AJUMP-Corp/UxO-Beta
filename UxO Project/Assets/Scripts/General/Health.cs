@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour
+public class Health : MonoBehaviour
 {
     private bool isDead;
     private Animator animator;
@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
         
         if (currentHealth > 0)
         {
-            print(currentHealth);
+            // Nothing to do
         }
         else
         {
