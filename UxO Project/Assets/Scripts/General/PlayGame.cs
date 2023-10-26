@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    void Update()
+    private void Update()
     {
         if (Input.anyKeyDown)
         {
-            SceneManager.LoadScene("SampleScene"); // Troque "GameScene" pelo nome da sua cena principal do jogo.
+            SceneManager.LoadScene("Level1");
         }
     }
 }

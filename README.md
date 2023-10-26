@@ -67,14 +67,15 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [ ] Attack and damage enemies
   - [ ] Use of skills
   - [ ] Way to enter a level
-- **User Interface**
+- **UI / General**
   - [ ] Main menu
     - [X] Intro menu
     - [ ] Settings tab
     - [ ] Character selection tab
   - [X] Camera schematics
   - [X] Phases map
-  - [ ] Animations & Cutscenes
+  - [ ] Game audio
+  - [ ] Story scenes
   - [ ] Credits screen
 - **Enemies**
   - [X] Collision system
@@ -100,8 +101,8 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [ ] Give the player a new skill at the end of the level
 
 ## Credits & License
-- Project Management by [João Gabriel](https://github.com/JGabrielJ).
-- Programming by [Pedro Cauan](https://github.com/Cauan87), [João Gabriel](https://github.com/JGabrielJ) and [Murilo Rodrigues](https://github.com/MuriloPensativo).
+- Project Management by [João Gabriel](https://github.com/JGabrielJ) and [Murilo Rodrigues](https://github.com/MuriloPensativo).
+- Programming by [Pedro Cauan](https://github.com/Cauan87) and [João Gabriel](https://github.com/JGabrielJ).
 - Map and Characters by [Ulisses dos Santos](https://github.com/Ulisses-Eufrauzino).
 - Sounds by [Abraão Lucas](https://github.com/abraaolucassb).
 > See more about our team [here](https://github.com/AJUMP-Corp).
