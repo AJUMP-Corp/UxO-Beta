@@ -66,7 +66,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [X] Player health
   - [ ] Attack and damage enemies
   - [ ] Use of skills
-  - [ ] Way to enter a level
+  - [X] Way to enter a level
 - **UI / General**
   - [ ] Main menu
     - [X] Intro menu
@@ -74,7 +74,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
     - [ ] Character selection tab
   - [X] Camera schematics
   - [X] Phases map
-  - [ ] Game audio
+  - [X] Game audio
   - [ ] Story scenes
   - [ ] Credits screen
 - **Enemies**

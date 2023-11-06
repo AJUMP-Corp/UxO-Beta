@@ -5,13 +5,21 @@ public class PlayerMove : MonoBehaviour
 {
     private Rigidbody2D body;
     private Animator animator;
-    private bool isJumping = false;
+    private Stamina playerStamina;
+    private BoxCollider2D boxCollider;
     [SerializeField] private float walkSpeed;
-    [SerializeField] private float jumpForce;
+    [SerializeField] private LayerMask groundLayer;
 
+    private bool isJumping = false;
+    private bool oneMoreJump = false;
+    [SerializeField] private float jumpHeight;
+    [SerializeField] private AudioClip jumpSound;
+
+    public bool canDash = true;
     private bool isDashing = false;
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashDuration;
+    [SerializeField] private AudioClip dashSound;
 
     // Awake is called when the script instance is loaded
     private void Awake()
@@ -19,6 +27,8 @@ public class PlayerMove : MonoBehaviour
         // Initializes body and animator from player
         body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        playerStamina = GetComponent<Stamina>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -45,31 +55,59 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             StartCoroutine(Dash());
+            playerStamina.SpendStamina(1);
         }
 
-        // Implements jump (basic)
-        if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+        // Implements jump
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            body.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-            isJumping = true;
+            if (!isJumping)
+            {
+                Jump();
+                isJumping = true;
+                oneMoreJump = true;
+            }
+            
+            if (isJumping && oneMoreJump)
+            {
+                Jump();
+                oneMoreJump = false;
+            }
+        }
+
+        // Resets jump state when the player is on the ground
+        if (isGrounded())
+        {
+            isJumping = false;
+            oneMoreJump = false;
         }
 
         // Activates the player's walking animation
         animator.SetBool("isWalking", horizontalInput != 0);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private bool isGrounded()
     {
-        // Resets jump state when colliding with something (player is on the ground)
-        isJumping = false;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
+        return raycastHit.collider != null;
+    }
+
+    private void Jump()
+    {
+        SoundManager.instance.PlaySound(jumpSound);
+        body.velocity = new Vector2(body.velocity.x, body.velocity.y + jumpHeight);
     }
 
     private IEnumerator Dash()
     {
-        isDashing = true;
-        body.velocity = new Vector2(Input.GetAxis("Horizontal") * dashSpeed, body.velocity.y);
-        animator.SetTrigger("isDashing");
-        yield return new WaitForSeconds(dashDuration);
-        isDashing = false;
+        if (canDash)
+        {
+            isDashing = true;
+            body.velocity = new Vector2(Input.GetAxis("Horizontal") * dashSpeed, body.velocity.y);
+            SoundManager.instance.PlaySound(dashSound);
+            animator.SetTrigger("isDashing");
+            yield return new WaitForSeconds(dashDuration);
+            isDashing = false;
+        }
     }
 }

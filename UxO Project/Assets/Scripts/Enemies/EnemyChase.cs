@@ -5,6 +5,7 @@ public class EnemyChase : MonoBehaviour
     [SerializeField] private Transform leftEdge;
     [SerializeField] private Transform rightEdge;
     [SerializeField] private Transform enemy;
+    [SerializeField] private string enemyName;
     [SerializeField] private float speed;
     [SerializeField] private float stopDuration;
 
@@ -16,7 +17,7 @@ public class EnemyChase : MonoBehaviour
     private void Awake()
     {
         initialScale = enemy.localScale;
-        animator = GameObject.Find("Katanaji").GetComponent<Animator>();
+        animator = GameObject.Find(enemyName).GetComponent<Animator>();
     }
 
     private void Update()

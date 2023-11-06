@@ -35,4 +35,14 @@ public class Health : MonoBehaviour
             }
         }
     }
+
+    public void ResetHealth()
+    {
+        isDead = false;
+        currentHealth = startHealth;
+        boxCollider.size = new Vector2(3, 6);
+        GetComponent<PlayerMove>().enabled = true;
+        animator.ResetTrigger("isDying");
+        animator.Play("PlayerStopped");
+    }
 }

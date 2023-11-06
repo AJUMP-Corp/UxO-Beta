@@ -5,6 +5,7 @@ public class PlayerAttack : MonoBehaviour
     private Animator animator;
     private float cooldownTimer = Mathf.Infinity;
     [SerializeField] private float attackCooldown;
+    [SerializeField] private AudioClip attackSound;
 
     // Awake is called when the script instance is loaded
     private void Awake()
@@ -18,6 +19,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown)
         {
+            SoundManager.instance.PlaySound(attackSound);
             animator.SetTrigger("isAttacking");
             cooldownTimer = 0;
         }
