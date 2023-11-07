@@ -69,15 +69,14 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [ ] Use of skills
   - [X] Way to enter a level
 - **UI / General**
-  - [ ] Main menu
-    - [X] Intro menu
+  - [ ] Game Menu
+    - [X] Main Menu
+    - [X] Pause Menu
     - [ ] Settings tab
-    - [ ] Character selection tab
   - [X] Camera schematics
   - [X] Phases map
   - [X] Game audio
-  - [ ] Story scenes
-  - [ ] Credits screen
+  - [ ] Intro scene
 - **Enemies**
   - [X] Collision system
     - [X] Floor and walls
@@ -99,7 +98,6 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
     - [ ] Map 3 complete
     - [ ] Map 4 complete
   - [ ] Transition mechanics between levels
-  - [ ] Give the player a new skill at the end of the level
 
 ## Credits & License
 - Project Management by [João Gabriel](https://github.com/JGabrielJ) and [Murilo Rodrigues](https://github.com/MuriloPensativo).

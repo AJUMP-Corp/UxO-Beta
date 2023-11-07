@@ -13,7 +13,7 @@ public class PlayerRespawn : MonoBehaviour
 
     public void Respawn()
     {
-        transform.position = new Vector2(-14, 0);
+        transform.position = new Vector2(-14.5f, 0);
         playerHealth.ResetHealth();
         playerStamina.ResetStamina();
     }

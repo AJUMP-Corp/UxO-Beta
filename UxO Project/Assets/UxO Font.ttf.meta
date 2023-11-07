@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7bd752b7f60d73e47b951b9258503e2f
+guid: 0f0522ab246278140ad1b927365c0d49
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Samurai
+  - Jujutsu Kaisen
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
