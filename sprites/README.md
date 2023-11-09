@@ -33,6 +33,7 @@ Now I will do a quick explanation of each directory.
 
 - Description of characters: 
     - [Utuh README](./characters/utuh/README.md)
+    - [Ayumi README](./characters/ayumi/README.md)
 
 -----------------------
 ### [Bosses](./bosses/)
