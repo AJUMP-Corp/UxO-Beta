@@ -36,7 +36,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
 - Storage: 500 MB of available disk space
 
 ## Download
-1. Download the game [here](https://github.com/AJUMP-Corp/UxO-Beta/releases/download/alpha/UxO.Beta.zip).
+1. Download the game [here](https://github.com/AJUMP-Corp/UxO-Beta/releases/download/beta/UxO-Beta.zip).
 2. Extract the .zip file to the folder of your choice.
 3. Run the "**UxO-Beta.exe**" file to launch the game.
 > NOTE: See [how to play](./Technical%20Descriptions/CHARACTERS.md) to more informations.
