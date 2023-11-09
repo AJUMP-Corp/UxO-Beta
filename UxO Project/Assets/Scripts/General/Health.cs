@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -6,6 +7,7 @@ public class Health : MonoBehaviour
     private Animator animator;
     private BoxCollider2D boxCollider;
     [SerializeField] private float startHealth;
+    [SerializeField] private float timeToDestroy;
     public float currentHealth { get; private set; }
 
     // Awake is called when the script instance is loaded
@@ -16,13 +18,13 @@ public class Health : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
     }
 
-    public void TakeDamage(float damage)
+    public void PlayerTakeDamage(float damage)
     {
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, startHealth);
         
         if (currentHealth > 0)
         {
-            // Nothing to do
+            animator.SetTrigger("isHurting");
         }
         else
         {
@@ -36,6 +38,25 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void EnemyTakeDamage(float damage)
+    {
+        currentHealth = Mathf.Clamp(currentHealth - damage, 0, startHealth);
+
+        if (currentHealth > 0)
+        {
+            animator.SetTrigger("isHurted");
+        }
+        else
+        {
+            if (!isDead)
+            {
+                animator.SetTrigger("isDied");
+                StartCoroutine(DestroyEnemy());
+                isDead = true;
+            }
+        }
+    }
+
     public void ResetHealth()
     {
         isDead = false;
@@ -44,5 +65,11 @@ public class Health : MonoBehaviour
         GetComponent<PlayerMove>().enabled = true;
         animator.ResetTrigger("isDying");
         animator.Play("PlayerStopped");
+    }
+
+    private IEnumerator DestroyEnemy()
+    {
+        yield return new WaitForSeconds(timeToDestroy);
+        Destroy(gameObject);
     }
 }

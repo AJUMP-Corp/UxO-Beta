@@ -26,7 +26,7 @@ All of the family's belongings were stolen, including his great-great-grandfathe
 Everyone had been exterminated: the citizens, his soldiers, his family... There was only him and his hatred left. Months after the tragedy, after intense training routines and endless planning for a successful attack against Onigama, he was ready to exact his revenge. It was kill or be killed; he no longer feared death, there was nothing to lose. After thinking of countless different strategies, he decided to start his attacks at Yawarakai Mori, a grove where a portion of Onigama's army was stationed, just in case they invaded his territory.
 
 ## Game Production History
-From the beginning, the basic idea was always a 2D adventure, platform and difficult game, with frantic and insane fights. We decided to use the Unity game engine to develop it, due to its popularity and ease of work. For the graphics, firstly, we idealized them to be pixelated (this version can be found [here](https://github.com/AJUMP-Corp/UxO-Beta/tree/main/Old%20Version%20(test))), but due to some problems this idea was discarded. At the moment, the team is working on producing graphics using vectors, while the development of the first phase of the game is underway.
+From the beginning, the basic idea was always a 2D adventure, platform and difficult game, with frantic and insane fights. We decided to use the Unity game engine to develop it, due to its popularity and ease of work. For the graphics, firstly, we idealized them to be pixelated (this version can be found [here](https://github.com/AJUMP-Corp/UxO-Beta/tree/main/Old%20Version%20(test))), but due to some problems this idea was discarded. The team is currently working on a visual improvement for the main menu, while development on the second level of the game is underway.
 
 ## System Requirements
 - Operational System: Windows 7 or later
@@ -36,10 +36,10 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
 - Storage: 500 MB of available disk space
 
 ## Download
-1. Download the game [here](https://github.com/AJUMP-Corp/UxO-Beta/releases/download/alpha/UxO.Beta.zip) (Alpha version).
-2. Extract the .zip file to the folder of your choice and open the **GameRun** folder.
-3. Run the "**UxO Beta.exe**" file to launch the game.
-> NOTE: to exit the game, press **Alt + F4**.
+1. Download the game [here](https://github.com/AJUMP-Corp/UxO-Beta/releases/download/alpha/UxO.Beta.zip).
+2. Extract the .zip file to the folder of your choice.
+3. Run the "**UxO-Beta.exe**" file to launch the game.
+> NOTE: See [how to play](./Technical%20Descriptions/CHARACTERS.md) to more informations.
 
 ## Resources
 - Amazing 2D graphics.
@@ -65,8 +65,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
     - [X] Basic walking
     - [X] Dash or dodge
   - [X] Player health
-  - [ ] Attack and damage enemies
-  - [ ] Use of skills
+  - [X] Attack and damage enemies
   - [X] Way to enter a level
 - **UI / General**
   - [ ] Game Menu
@@ -91,7 +90,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [ ] Attack on the player
   - [ ] Movement mechanics
 - **Levels**
-  - [ ] Trap system
+  - [X] Trap system
   - [ ] Map environments
     - [X] Map 1 complete
     - [ ] Map 2 complete

@@ -4,7 +4,6 @@
 - **Kunaja:** Dies with four hits from the player, is faster than the other enemies and uses a kunai.
 
 # General Statistics:
-- Every enemy endlessly chases the player;
 - A enemy cannot attack the others;
 - Any damage takes 1 heart from the player.
 

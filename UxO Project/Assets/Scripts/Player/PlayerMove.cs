@@ -5,6 +5,7 @@ public class PlayerMove : MonoBehaviour
 {
     private Rigidbody2D body;
     private Animator animator;
+
     private Stamina playerStamina;
     private BoxCollider2D boxCollider;
     [SerializeField] private float walkSpeed;

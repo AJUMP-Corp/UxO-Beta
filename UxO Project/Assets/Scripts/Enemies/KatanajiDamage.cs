@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyDamage : MonoBehaviour
+public class KatanajiDamage : MonoBehaviour
 {
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
@@ -31,7 +31,6 @@ public class EnemyDamage : MonoBehaviour
             {
                 cooldownTimer = 0;
                 animator.SetTrigger("isAttacked");
-                SoundManager.instance.PlaySound(swordSound);
             }
         }
 
@@ -65,7 +64,8 @@ public class EnemyDamage : MonoBehaviour
     {
         if (PlayerInSight())
         {
-            playerHealth.TakeDamage(damage);
+            playerHealth.PlayerTakeDamage(damage);
+            SoundManager.instance.PlaySound(swordSound);
         }
     }
 }
