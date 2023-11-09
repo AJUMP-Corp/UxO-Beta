@@ -10,7 +10,7 @@ The soundtrack is a set of sounds from a work, which can be a commercial, a game
 
 The theme music for UxO Beta was based on Japanese culture, as the game is set in Japan. As a base I used the song "Wadaiko Matsuriza - Kabuki Gomen-Jyo" (this song can be found on YouTube). After putting this song at the base of my project, I then made melodies and a chord structure that would look good in the musical style of the Japanese drums. I also added special effects like Chinese gongs, and even Goku's scream when he transforms into Super Saiyan 3. Putting it all together formed a beautiful musical theme for our game. You can access this theme just below.
 
-- UxO Musical Theme: [UxO Musical Theme](musical_themes/UxO_Musical_Theme.wav)
+- UxO Musical Theme: [UxO Musical Theme](UxO_Musical_Theme.wav)
 
 <div align="center"> 
   <img src="image_musical/musical_theme_uxo.png" alt="BandLab Musical Theme">
