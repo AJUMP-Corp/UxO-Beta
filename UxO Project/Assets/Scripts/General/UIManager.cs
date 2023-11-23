@@ -49,12 +49,12 @@ public class UIManager : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene("MenuInicial");
+        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1;
     }
 
     public void Quit()
     {
         Application.Quit();
-        UnityEditor.EditorApplication.isPlaying = false;
     }
 }

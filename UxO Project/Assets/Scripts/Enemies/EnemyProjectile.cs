@@ -18,16 +18,21 @@ public class EnemyProjectile : EnemyDamage
         }
     }
 
-    public void ActivateProjectile()
+    public void ActivateProjectile(bool isOnigama)
     {
         lifeTime = 0;
         gameObject.SetActive(true);
+
+        if (isOnigama)
+        {
+            GetComponent<Animator>().SetTrigger("rotate");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         base.OnTriggerEnter2D(collision);
-        if (collision.tag != "Enemy")
+        if (collision.tag != "Enemy" && collision.tag != "Section")
         {
             gameObject.SetActive(false);
         }

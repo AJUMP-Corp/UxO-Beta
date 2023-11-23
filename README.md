@@ -84,16 +84,16 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [X] Attack on the player
   - [X] Movement mechanics (basic)
 - **Bosses**
-  - [ ] Collision system
-    - [ ] Floor and walls
-    - [ ] Player damage
-  - [ ] Attack on the player
-  - [ ] Movement mechanics
+  - [X] Collision system
+    - [X] Floor and walls
+    - [X] Player damage
+  - [X] Attack on the player
+  - [X] Attack mechanics
 - **Levels**
   - [X] Trap system
   - [ ] Map environments
     - [X] Map 1 complete
-    - [ ] Map 2 complete
+    - [X] Map 2 complete
     - [ ] Map 3 complete
     - [ ] Map 4 complete
   - [ ] Transition mechanics between levels

@@ -29,7 +29,7 @@ public class TanegashimiriDamage : MonoBehaviour
 
         if (PlayerInSight())
         {
-            projectiles[FindProjectile()].GetComponent<EnemyProjectile>().ActivateProjectile();
+            projectiles[FindProjectile()].GetComponent<EnemyProjectile>().ActivateProjectile(false);
         }
     }
 

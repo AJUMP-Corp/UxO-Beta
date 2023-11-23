@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -68,7 +69,7 @@ public class PlayerMove : MonoBehaviour
                 isJumping = true;
                 oneMoreJump = true;
             }
-            
+
             if (isJumping && oneMoreJump)
             {
                 Jump();
@@ -81,6 +82,11 @@ public class PlayerMove : MonoBehaviour
         {
             isJumping = false;
             oneMoreJump = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            SceneManager.LoadScene("Level2");
         }
 
         // Activates the player's walking animation
