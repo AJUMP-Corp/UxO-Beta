@@ -44,10 +44,9 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
 ## Resources
 - Amazing 2D graphics.
 - Immersive soundtrack.
-- 2 characters available to play.
-- Various unlockable skills.
+- 1 epic character available to play.
 - Challenging enemies, traps and bosses.
-- 4 levels of pure adrenaline to explore.
+- 3 levels of pure adrenaline to explore.
 
 ## Screenshots
 <div align="center">
@@ -68,10 +67,9 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [X] Attack and damage enemies
   - [X] Way to enter a level
 - **UI / General**
-  - [ ] Game Menu
+  - [X] Game Menu
     - [X] Main Menu
     - [X] Pause Menu
-    - [ ] Settings tab
   - [X] Camera schematics
   - [X] Phases map
   - [X] Game audio
@@ -91,11 +89,10 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [X] Attack mechanics
 - **Levels**
   - [X] Trap system
-  - [ ] Map environments
+  - [X] Map environments
     - [X] Map 1 complete
     - [X] Map 2 complete
-    - [ ] Map 3 complete
-    - [ ] Map 4 complete
+    - [X] Map 3 complete
   - [ ] Transition mechanics between levels
 
 ## Credits & License

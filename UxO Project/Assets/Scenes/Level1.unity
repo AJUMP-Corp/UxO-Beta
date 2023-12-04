@@ -16725,6 +16725,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1840354175911345084, guid: c68dc3ca7f3470b41b15fb3614003281, type: 3}
+      propertyPath: scaleX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840354175911345084, guid: c68dc3ca7f3470b41b15fb3614003281, type: 3}
+      propertyPath: scaleY
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3624274934406728342, guid: c68dc3ca7f3470b41b15fb3614003281, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30
@@ -16765,6 +16773,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5876865574921084406, guid: c68dc3ca7f3470b41b15fb3614003281, type: 3}
+      propertyPath: posX
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876865574921084406, guid: c68dc3ca7f3470b41b15fb3614003281, type: 3}
+      propertyPath: cameraPosX
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876865574921084406, guid: c68dc3ca7f3470b41b15fb3614003281, type: 3}
+      propertyPath: followCamera
+      value: 
+      objectReference: {fileID: 929833646}
     - target: {fileID: 8588835511098450050, guid: c68dc3ca7f3470b41b15fb3614003281, type: 3}
       propertyPath: m_Name
       value: Player
@@ -17275,11 +17295,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barriers
       objectReference: {fileID: 0}
+    - target: {fileID: 9040833758278543168, guid: 484d784a5b341864bbead8220ac060c2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1488977757362225811, guid: 484d784a5b341864bbead8220ac060c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7600283693974193833}
   m_SourcePrefab: {fileID: 100100000, guid: 484d784a5b341864bbead8220ac060c2, type: 3}
+--- !u!1 &7600283693974193832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1488977757362225811, guid: 484d784a5b341864bbead8220ac060c2, type: 3}
+  m_PrefabInstance: {fileID: 7600283693974193831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7600283693974193833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7600283693974193832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329ba3ffd08a35e449ecd343b99e231c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Level2
 --- !u!1001 &8760442009874623135
 PrefabInstance:
   m_ObjectHideFlags: 0
