@@ -37,6 +37,10 @@ Now I will do a quick explanation of each directory.
 
 -----------------------
 ### [Bosses](./bosses/)
+- In this directory are the sprites of the bosses. They are the main challenges of UxO Beta.
+
+- Description of bosses: 
+    - [Onigama README](./bosses/onigama/README.md)
 
 -------------------------
 ### [Enemies](./enemies/)
