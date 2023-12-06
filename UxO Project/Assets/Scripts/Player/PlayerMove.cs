@@ -5,6 +5,9 @@ public class PlayerMove : MonoBehaviour
 {
     private Rigidbody2D body;
     private Animator animator;
+    [SerializeField] private float scaleX;
+    [SerializeField] private float scaleY;
+
     private Stamina playerStamina;
     private BoxCollider2D boxCollider;
     [SerializeField] private float walkSpeed;
@@ -44,11 +47,11 @@ public class PlayerMove : MonoBehaviour
         // Changes the direction of the player's sprite
         if (horizontalInput > 0.01f)
         {
-            transform.localScale = Vector3.one;
+            transform.localScale = new Vector3(scaleX, scaleY, 1);
         }
         else if (horizontalInput < -0.01f)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-scaleX, scaleY, 1);
         }
 
         // Implements dash
@@ -67,7 +70,7 @@ public class PlayerMove : MonoBehaviour
                 isJumping = true;
                 oneMoreJump = true;
             }
-            
+
             if (isJumping && oneMoreJump)
             {
                 Jump();

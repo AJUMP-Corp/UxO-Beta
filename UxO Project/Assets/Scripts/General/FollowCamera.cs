@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Vector3 offset; // Distância entre o jogador e a câmera
-    public Transform target; // O objeto que a câmera seguirá
-    public float smoothSpeed = 0.125f; // Velocidade de suavização do movimento da câmera
+    public float currentPositionX;
+    [SerializeField] private float speed;
+    private Vector3 velocity = Vector3.zero;
 
-    void LateUpdate()
+    private void Update()
     {
-        if (target != null)
-        {
-            Vector3 desiredPosition = target.position + offset;
-            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-            transform.position = smoothedPosition;
-        }
+        transform.position = Vector3.SmoothDamp(transform.position, new Vector3(currentPositionX, transform.position.y, transform.position.z), ref velocity, speed);
+    }
+
+    public void MoveAhead(float newPosition)
+    {
+        currentPositionX = newPosition;
     }
 }
