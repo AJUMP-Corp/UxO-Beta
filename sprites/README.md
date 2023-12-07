@@ -24,8 +24,8 @@ Now I will do a quick explanation of each directory.
 - Directory: [general](./general/)
 
 - Item definition: 
-    - [Level 1 README](./general/sprites_general/level1/README.md)
-    - [Level 2 README](./general/sprites_general/level2/README.md)
+    - [Level 1 README](./general/level1/README.md)
+    - [Level 2 README](./general/level2/README.md)
 
 -------------------------------
 ### [Characters](./characters/)
