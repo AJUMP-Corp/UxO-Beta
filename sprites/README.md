@@ -19,11 +19,13 @@ Now I will do a quick explanation of each directory.
 
 -------------------------
 ### [General](./general/)
-- This directory has the general sprites of the game, that is, the sprites of houses, clouds, etc.
+- This directory has the general sprites of the game, that is, the sprites of houses, clouds, etc. This directory is divided into phases.
 
 - Directory: [general](./general/)
 
-- Item definition: [General README](./general/README.md)
+- Item definition: 
+    - [Level 1 README](./general/level1/README.md)
+    - [Level 2 README](./general/level2/README.md)
 
 -------------------------------
 ### [Characters](./characters/)
