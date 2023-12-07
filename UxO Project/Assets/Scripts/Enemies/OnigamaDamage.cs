@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class OnigamaDamage : MonoBehaviour
 {
-    private Animator animator;
-    private float cooldownTimer;
     [SerializeField] private float attackCooldown;
-    [SerializeField] private Transform firePoint;
-    [SerializeField] private GameObject[] projectiles;
-
     [SerializeField] private float range;
     [SerializeField] private float colliderDistance;
+    [SerializeField] private float damage;
     [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private LayerMask playerLayer;
+    private float cooldownTimer = Mathf.Infinity;
+
+    private Animator animator;
+    private Health playerHealth;
 
     private void Awake()
     {
@@ -22,35 +22,14 @@ public class OnigamaDamage : MonoBehaviour
     {
         cooldownTimer += Time.deltaTime;
 
-        if (cooldownTimer >= attackCooldown)
-        {
-            Attack();
-        }
-    }
-
-    private void Attack()
-    {
-        cooldownTimer = 0;
-        projectiles[FindProjectile()].transform.position = firePoint.position;
-
         if (PlayerInSight())
         {
-            animator.SetTrigger("attack");
-            projectiles[FindProjectile()].GetComponent<EnemyProjectile>().ActivateProjectile(true);
-        }
-    }
-
-    private int FindProjectile()
-    {
-        for (int i = 0; i < projectiles.Length; i++)
-        {
-            if (!projectiles[i].activeInHierarchy)
+            if (cooldownTimer >= attackCooldown && playerHealth.currentHealth > 0)
             {
-                return i;
+                cooldownTimer = 0;
+                animator.SetTrigger("attack");
             }
         }
-
-        return 0;
     }
 
     private bool PlayerInSight()
@@ -58,13 +37,26 @@ public class OnigamaDamage : MonoBehaviour
         RaycastHit2D hit = Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z), 0, Vector2.left, 0, playerLayer);
 
+        if (hit.collider != null)
+        {
+            playerHealth = hit.transform.GetComponent<Health>();
+        }
+
         return hit.collider != null;
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.cyan;
+        Gizmos.color = Color.magenta;
         Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
+    }
+
+    private void DamagePlayer()
+    {
+        if (PlayerInSight())
+        {
+            playerHealth.PlayerTakeDamage(damage);
+        }
     }
 }

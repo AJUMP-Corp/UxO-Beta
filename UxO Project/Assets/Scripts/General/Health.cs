@@ -6,6 +6,8 @@ public class Health : MonoBehaviour
     private bool isDead;
     private Animator animator;
     private BoxCollider2D boxCollider;
+
+    [SerializeField] private bool isOnigama;
     [SerializeField] private float startHealth;
     [SerializeField] private float timeToDestroy;
     public float currentHealth { get; private set; }
@@ -70,6 +72,12 @@ public class Health : MonoBehaviour
     private IEnumerator DestroyEnemy()
     {
         yield return new WaitForSeconds(timeToDestroy);
+
+        if (isOnigama)
+        {
+            GameObject.Find("Player").GetComponent<Health>().PlayerTakeDamage(5);
+        }
+
         Destroy(gameObject);
     }
 }

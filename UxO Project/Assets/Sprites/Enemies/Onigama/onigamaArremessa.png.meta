@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efc28a2c12e94d44e9bf0a80555c78a3
-      internalID: 207374996
+      spriteID: bd873c5884349994fa68e45e2c1ad1ba
+      internalID: 65390390
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b866c0df565393f44a09afdbe662b3ea
-      internalID: -1405286176
+      spriteID: a5ddd4bc8138bcb4caba83048d2df0f0
+      internalID: -661598962
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fc162f8b91845e4bbbdbae17b9b4ffa
-      internalID: 2039777240
+      spriteID: 5a225055189533b40a7f3385308be31f
+      internalID: 1586934339
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e69477726a7730949b41b005eaa961d1
-      internalID: -896082149
+      spriteID: 907bf3d254659d8448d00b3f66cb621f
+      internalID: 1047248514
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6066d49d9373a2429ddb79ebc727f2d
-      internalID: 358794197
+      spriteID: 4eb1903c065161649aa525a528287f1d
+      internalID: -963700629
       vertices: []
       indices: 
       edges: []
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 962d135ae3c85ef4380614b719252bc1
-      internalID: 774165848
+      spriteID: 0d13de87f22436d4b98f88bef3a7aa44
+      internalID: 1021662135
       vertices: []
       indices: 
       edges: []
@@ -259,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      onigamaArremessa_0: 207374996
-      onigamaArremessa_1: -1405286176
-      onigamaArremessa_2: 2039777240
-      onigamaArremessa_3: -896082149
-      onigamaArremessa_4: 358794197
-      onigamaArremessa_5: 774165848
+      onigamaArremessa_0: 65390390
+      onigamaArremessa_1: -661598962
+      onigamaArremessa_2: 1586934339
+      onigamaArremessa_3: 1047248514
+      onigamaArremessa_4: -963700629
+      onigamaArremessa_5: 1021662135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

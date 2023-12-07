@@ -21,19 +21,19 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1869716189, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+      value: {fileID: -792264148, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
     - time: 0.16666667
-      value: {fileID: 520772, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+      value: {fileID: 2080219747, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
     - time: 0.33333334
-      value: {fileID: -1206320532, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+      value: {fileID: 1917322900, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
     - time: 0.5
-      value: {fileID: -158941118, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+      value: {fileID: -458109125, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
     - time: 0.6666667
-      value: {fileID: -2104718951, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+      value: {fileID: -656780396, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
     - time: 0.8333333
-      value: {fileID: -1891378930, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+      value: {fileID: 1416330449, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
     - time: 1
-      value: {fileID: -357958850, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+      value: {fileID: -802552490, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -56,13 +56,13 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1869716189, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
-    - {fileID: 520772, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
-    - {fileID: -1206320532, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
-    - {fileID: -158941118, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
-    - {fileID: -2104718951, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
-    - {fileID: -1891378930, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
-    - {fileID: -357958850, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+    - {fileID: -792264148, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+    - {fileID: 2080219747, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+    - {fileID: 1917322900, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+    - {fileID: -458109125, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+    - {fileID: -656780396, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+    - {fileID: 1416330449, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
+    - {fileID: -802552490, guid: 6e5578372d1252348904d585ed4f2c89, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -87,4 +87,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 1
+    functionName: PlayerTakeDamage
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 5
+    intParameter: 0
+    messageOptions: 0

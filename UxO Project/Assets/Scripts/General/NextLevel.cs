@@ -1,15 +1,37 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    [SerializeField] private string sceneName;
+    [SerializeField] private bool isLevel1;
+    [SerializeField] private GameObject transition;
+
+    private void Awake()
+    {
+        transition.SetActive(false);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            SceneManager.LoadScene(sceneName);
+            if (isLevel1)
+            {
+                StartCoroutine(LoadLevel2());
+            }
+            else
+            {
+                SceneManager.LoadScene("Level3");
+            }
         }
+    }
+
+    private IEnumerator LoadLevel2()
+    {
+        transition.SetActive(true);
+        yield return new WaitForSeconds(10);
+        transition.SetActive(false);
+        SceneManager.LoadScene("Level2");
     }
 }

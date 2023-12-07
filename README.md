@@ -73,7 +73,6 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
   - [X] Camera schematics
   - [X] Phases map
   - [X] Game audio
-  - [ ] Intro scene
 - **Enemies**
   - [X] Collision system
     - [X] Floor and walls
@@ -93,7 +92,7 @@ From the beginning, the basic idea was always a 2D adventure, platform and diffi
     - [X] Map 1 complete
     - [X] Map 2 complete
     - [X] Map 3 complete
-  - [ ] Transition mechanics between levels
+  - [X] Transition mechanics between levels
 
 ## Credits & License
 - Project Management by [João Gabriel](https://github.com/JGabrielJ) and [Murilo Rodrigues](https://github.com/MuriloPensativo).
