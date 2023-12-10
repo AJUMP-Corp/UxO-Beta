@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour
 {
     [SerializeField] private bool isLevel1;
+    [SerializeField] private bool isLevel2;
     [SerializeField] private GameObject transition;
 
     private void Awake()
@@ -18,20 +19,20 @@ public class NextLevel : MonoBehaviour
         {
             if (isLevel1)
             {
-                StartCoroutine(LoadLevel2());
+                StartCoroutine(LoadLevel("Level2"));
             }
-            else
+            else if (isLevel2)
             {
-                SceneManager.LoadScene("Level3");
+                StartCoroutine(LoadLevel("Level3"));
             }
         }
     }
 
-    private IEnumerator LoadLevel2()
+    private IEnumerator LoadLevel(string levelName)
     {
         transition.SetActive(true);
         yield return new WaitForSeconds(10);
         transition.SetActive(false);
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene(levelName);
     }
 }
